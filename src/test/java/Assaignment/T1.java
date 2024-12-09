@@ -86,10 +86,10 @@ public class T1 {
                 Assertions.assertTrue(tableData.contains(name), "Table does not contain the name: " + name);
             }
             
-            Thread.sleep(4000);
+            Thread.sleep(3000);
         } finally {
             // Closing the browser after test execution
-            driver.quit();
+//            driver.quit();
         }
         		
 
